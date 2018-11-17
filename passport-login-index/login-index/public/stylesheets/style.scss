@@ -1,0 +1,35 @@
+
+
+nav{
+  border-bottom: 1px dotted rgb(191, 185, 177);
+  display: flex;
+  justify-content:flex-start;
+  background-color: rgb(191, 185, 177);
+  height: 6vh;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+nav a{
+  color: white;
+  font-size: 1.3em;
+  text-decoration: none;
+  margin-left: 3vw;
+}
+
+nav a:hover{
+  color: purple;
+}
+
+body{
+  margin-top: 8vh;
+}
+
+.logInBox{
+  margin-left: 10vw;
+  margin-top: 10vh;
+  font-family: helvetica;
+}
